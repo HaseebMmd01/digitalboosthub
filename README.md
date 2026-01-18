@@ -1,1 +1,22 @@
-# digitalboosthub
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Digital Boost Hub</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin:0; padding:0; background:#f0f4f8; }
+    header { background:#0d6efd; color:#fff; padding:40px 20px; text-align:center; }
+    header h1 { margin:0; font-size:36px; }
+    header p { font-size:18px; margin-top:10px; }
+
+    .services { display:flex; flex-wrap:wrap; justify-content:center; margin:50px 20px; }
+    .card { background:#fff; border-radius:10px; padding:30px; margin:15px; width:200px; box-shadow:0 4px 8px rgba(0,0,0,0.1); transition:transform 0.3s; }
+    .card:hover { transform: translateY(-10px); }
+    .card h3 { margin-top:0; color:#0d6efd; }
+    .card p { font-size:16px; margin:10px 0 0 0; }
+
+    .order-btn { display:block; width:250px; margin:40px auto; text-align:center; padding:15px; background:#0d6efd; color:#fff; font-weight:bold; border-radius:8px; text-decoration:none; transition:background 0.3s; }
+    .order-btn:hover { background:#084298; }
+
+    footer { text-align:center; padding:20px; backgrou
